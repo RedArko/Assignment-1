@@ -1,0 +1,118 @@
+body,
+html {
+  height: 100%;
+}
+
+
+body {
+  font-weight: 200;
+  font-size: 1.5rem;
+  color: #444;
+}
+
+.intro-left {
+  background: url(../img/1.jpg);
+  background-size: cover;
+  position: fixed;
+  left: 0;
+  width: 33.3333%;
+  height: 100%;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .intro-left {
+    height: 30vh;
+    margin-bottom: 0;
+    position: relative;
+    width: 100%;
+  }
+}
+
+.avatar {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 90%;
+  margin: 1rem;
+}
+
+.full-height {
+  height: 100%;
+}
+
+
+section {
+  margin: 5rem;
+  font-size: 1.2 rem;
+  padding-bottom: 200px;
+}
+
+a {
+  color: #444;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #fff;
+  font-size: 1rem;
+  margin: 0;
+}
+
+
+
+.background {
+  background-color: #eee;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: fixed;
+ 
+}
+.intro-left .display-6 {
+  font-size: 37px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.navbar-expand-lg .navbar-collapse {
+  display: flex!important;
+
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 100%;
+  z-index: 9999;
+}
+.intro .mb-5 {
+  margin-top: 177px;
+  margin-bottom: 3rem!important;
+}
+.col p {
+  font-weight: 600;
+}
+.pcontact{
+  padding-top: 108px;
+}
+.projects .img-fluid {
+  max-width: 100%;
+  height: 250px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0.5rem;
+  padding-left: 3.5rem;
+}
+.socialicons a i{
+  font-size: 40px;
+  padding-right: 30px;
+}
+.socialicons{
+  padding-top: 50px;
+}
+
+@media(max-width: 786px ) {
+  nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    position: absolute;
+  }
+}
+
